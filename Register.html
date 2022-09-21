@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/elegant-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">
+        <img src="Images/L10.jpg" width="100px" height="100px">
+      </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="Q&A.html">Q & A</a></li>
+          <li><a href="Register.html" class="active">Register Online</a></li>
+          <li><a href="Driver.html">Our Drivers</a></li>
+        </ul>
+    </nav>
+<section class="register">
+  <div class="register-container">
+    <div class="register-title">Registration</div>
+    <div class="register-content">
+    <form action="#">
+      <div class="user-details">
+        <div class="input-box">
+         <div class="select">
+           <select name="format" id="format">
+             <option selected disabled>Choose Stages</option>
+             <option value="Special Stage">Special Stage</option>
+             <option value="Super Special Stage">Super Special Stage</option>
+             <option value="Power Stage">Power Stage</option>
+           </select>
+         </div>
+        </div>
+         <div class="input-box">
+          <span class="details">Country</span>
+          <input type="text" placeholder="Enter your country" required>
+        </div>
+         <div class="input-box">
+          <span class="details">Email</span>
+          <input type="text" placeholder="Enter your email" required>
+        </div>
+         <div class="input-box">
+          <span class="details">Phone Number</span>
+          <input type="text" placeholder="Enter your number" required>
+        </div>
+         <div class="input-box">
+          <span class="details">Password</span>
+          <input type="text" placeholder="Enter your password" required>
+        </div>
+         <div class="input-box">
+          <span class="details">Confirm Password</span>
+          <input type="text" placeholder="Confirm your password" required>
+        </div>
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender-title">Gender</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+          </label>
+        </div>
+      </div>
+      <div class="register-button">
+        <input type="Submit" value="Register">
+      </div>
+    </form>
+  </div>
+</div>
+</section>
+<footer>
+      <div class="footer-content">
+        <h3>Leslie's Vintage Rally Club</h3>
+        <p>Visit our website to know more about vintage car racing and detail about vintage cars</p>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2022 Leslie's Vintage Rally Club. Designed by <span>L E S L I E</span></p>
+      </div>
+</footer>
